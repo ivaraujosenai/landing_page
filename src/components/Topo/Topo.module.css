@@ -1,0 +1,29 @@
+.container_topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.container_topo a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.container_topo a:hover{
+    color: red;
+}
+
+.logo{
+    width: auto;
+    height: 50px;
+}
+.container_topo nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
